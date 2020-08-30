@@ -20,6 +20,7 @@
     "react-dom": "^16.13.1"
   },
   "scripts": {
+    "patch": "node server/patch-db",
     "dev": "node server",
     "build": "next build",
     "start": "NODE_ENV=production node server",
